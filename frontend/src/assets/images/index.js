@@ -1,0 +1,6 @@
+export { default as FB } from './facebook.svg'
+export { default as IG } from './instagram.svg'
+export { default as TELE } from './telegram.svg'
+export { default as YT } from './youtube.svg'
+export { default as TWIT } from './twitter.svg'
+export { default as TK } from './tiktok.svg'

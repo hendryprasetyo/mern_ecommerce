@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+.dropdown_menu {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  position: absolute;
+  top: 75px;
+  right: 0;
+  border-radius: 6px;
+  padding: 10px 20px;
+  width: 200px;
+}
+
+.dropdown_menu::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+  transform: rotate(45deg);
+}
